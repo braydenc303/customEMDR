@@ -1,0 +1,52 @@
+body {
+    background: none;
+}
+
+#box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 100vw;
+    height: 420px;
+    background: none;
+}
+
+
+#ball{
+    position: absolute;
+    top: 16.5%;
+    left: 0%;
+    width: 200px;
+    height: 200px;
+    background: #000000;
+    border-radius: 50%;
+    animation-name: emdr;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes emdr {
+    0% {left: 0%}
+    /* 25% {left: 50%} */
+    50% {left: calc(100% - 220px)}
+    /* 75% {left: 50%} */
+    100% {left: 0%}
+}
+
+footer {
+    position: absolute;
+    bottom: -10%;
+    width: calc(100vw - 20px);
+}
+
+.flex-container {
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+
+
