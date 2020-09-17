@@ -27,14 +27,11 @@ function chooseBackground() {
         document.getElementById("box3").style.color = "#000000"
         document.getElementById("box4").style.color = "#000000"
     }
-    console.log(parseInt(background[5]));
-    console.log(background);
     document.body.style.background = background;
 }
 
 function chooseBall() {
     ball = document.getElementById("colorPicker2").value;
-    console.log(ball);
     document.getElementById("ball").style.background = ball;
 }
 
