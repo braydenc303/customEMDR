@@ -17,3 +17,7 @@ https://braydenc303.github.io/customEMDR/
 or simply download the zipfile of this repository, extract the files to a folder, and then open the index.html file in your browser.
 
 I wish you and your patients all the best.
+
+If you find this useful and would like to give something back to the creator, feel free to buy me a coffee:
+
+https://www.buymeacoffee.com/braydenc303
